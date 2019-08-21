@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Matching Game</title>
+	</head>
+	<body>
+		<div class="container">
+			<form id="startGameForm">
+				<div class="form-group">
+					<div class="row">
+						<div class="col-md-2">
+							<div class="card fillout"><label for="inputPairs">Pairs to Make:</label></div>
+						</div>
+						<div class="col-md-2">
+							<input id="inputPairs" class="form-control fillout" type="text">
+						</div>
+						<div class="col-md-2">
+							<button type="submit" class="btn btn-primary fillout">Submit</button>
+						</div>
+						<div class="col-md-3">
+							<div class="card fillout">SCORE: <span id="scoreDisplay"></span></div>
+						</div>
+						<div class="col-md-3">
+							<div class="card fillout">TURN: <span id="turnDisplay"></span></div>
+						</div>
+					</div>
+				</div>
+			</form>
+			<div id="templateDiv" style="display:none;">
+				<span id="templateCard" title="DEBUG: "><img class="playingCard" src="./PNG/4H.png" alt="template"></a>
+			</div>
+			<div id="gameBoard">
+			</div>
+		</div>
+	</body>
+</html>
